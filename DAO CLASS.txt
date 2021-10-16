@@ -1,0 +1,36 @@
+import java.sql.DriverManager;
+
+
+public class policydetailDao {
+	
+	private String dburl="jdbc:postgresql://localhost:5432/insurance policy";
+	private String dbuname= "postgres";
+	private String dbpassword="bisag";
+	private String dbdriver="com.postgres.cj.jdbc.Driver";
+	
+	
+	public void loadDriver(String dbDriver)
+	{
+		try{
+			class.forName(dbDriver);
+		}
+		catch (ClassNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public connection getconnection()
+	{
+		connection con =null;
+		con = DriverManager.getConnection(dburl,dbname,dbpassword)
+	}
+	
+	public String insert(details detail)
+	{
+		loadDriver(dbDriver);
+		return null;
+	}
+
+}

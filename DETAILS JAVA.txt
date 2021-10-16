@@ -1,0 +1,73 @@
+
+public class details {
+
+	private String PolicyN0,SchemeNo ,AgentNo,CustomerName,PolicyAmount,Commision;
+	
+	
+
+	public details() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public details(String policyN0, String schemeNo, String agentNo,
+			String customerName, String policyAmount, String commision) {
+		super();
+		this.PolicyN0 = policyN0;
+		this.SchemeNo = schemeNo;
+		this.AgentNo = agentNo;
+		this.CustomerName = customerName;
+		this.PolicyAmount = policyAmount;
+		this.Commision = commision;
+	}
+
+	public String getPolicyN0() {
+		return PolicyN0;
+	}
+
+	public void setPolicyN0(String policyN0) {
+		PolicyN0 = policyN0;
+	}
+
+	public String getSchemeNo() {
+		return SchemeNo;
+	}
+
+	public void setSchemeNo(String schemeNo) {
+		SchemeNo = schemeNo;
+	}
+
+	public String getAgentNo() {
+		return AgentNo;
+	}
+
+	public void setAgentNo(String agentNo) {
+		AgentNo = agentNo;
+	}
+
+	public String getCustomerName() {
+		return CustomerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		CustomerName = customerName;
+	}
+
+	public String getPolicyAmount() {
+		return PolicyAmount;
+	}
+
+	public void setPolicyAmount(String policyAmount) {
+		PolicyAmount = policyAmount;
+	}
+
+	public String getCommision() {
+		return Commision;
+	}
+
+	public void setCommision(String commision) {
+		Commision = commision;
+	}
+	
+	
+}
